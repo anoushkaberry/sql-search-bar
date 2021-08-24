@@ -1,0 +1,136 @@
+body{
+    background-color: #1D4C53;
+    font-family: "Inconsolata";
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    font-size: 16px;
+}
+.navigation {
+background-color: #1D4C53;
+width: 100%;
+margin: 0;
+padding: 0;
+height: 100px;
+}
+.home {
+  background-image: linear-gradient(
+  rgba(29, 76, 83,0.0) 0%,
+  rgba(29, 76, 83,0.6) 50%,
+  rgba(29, 76, 83,0.8) 80%,
+  rgba(29, 76, 83,0.9) 90%,
+  rgba(29, 76, 83,1.0) 100%
+  );
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-color: #36B190;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.logo img {
+  float: left;
+  width: 50px;
+}
+
+.logo h1 {
+  position: relative;
+  left: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+form {
+  background-color: transparent;
+  border-style: solid;
+  width: 400px;
+  height: 50px;
+  border-radius: 0px;
+  display: inline-block;
+  flex-direction: row;
+  text-align: left;
+  border-width: 1.5px;
+}
+input {
+  all: unset;
+  font: 16px;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+input:hover {
+  color: #E4E4E4;
+
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.container {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: auto;
+}
+.btn {
+  text-align: center !important;
+  margin-top: 10px;
+  background-color: #1D4C53;
+}
+
+ul.bottom-page {
+  list-style-type: none;
+    /* styles */
+}
+
+ul.bottom-page li {
+  display: inline;
+}
+
+.try-again {
+  height: 50px;
+  width: 400px;
+  font: 16px;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+a:link, a:visited {
+  background-color: #1D4C53;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  font: 16px;
+  line-height: 50px;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1.5px;
+
+
+}
+
+a:hover, a:active {
+  background-color: #1D4C53;
+  color: #E4E4E4;
+}
+
+.search-result {
+  width: 800px;
+  line-height: normal;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 20px;
+  background-color: transparent;
+  color: #fff;
+}
